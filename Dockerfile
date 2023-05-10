@@ -16,9 +16,6 @@ RUN npm install
 # Copy the rest of the application
 COPY . .
 
-# Copy the Nginx configuration file
-COPY nginx.conf /etc/nginx/nginx.conf
-
 # Expose the port number
 EXPOSE 80
 
